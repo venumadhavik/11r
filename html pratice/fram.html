@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="fname">firstname:</label>
+      <input type="text" id="fname" name="fname" value="venu" disabled />
+      <label for="lname">lastname:</label>
+      <input type="text" id="lname" name="lname" value="kathi" readonly />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" autofocus /><br />
+
+      <label for="i">choose your fav color</label>
+      <select id="i" name="i">
+        <option>red</option>
+        <option>green</option>
+        <option>yellow</option></select
+      ><br />
+
+      <label for="c">choose your fav one</label>
+      <select id="c" name="c">
+        <optgroup label="color">
+          <option>red</option>
+          <option>yellow</option>
+          <option>violet</option>
+        </optgroup>
+        <optgroup label="languages">
+          <option>telugu</option>
+          <option>hindi</option>
+          <option>english</option>
+        </optgroup></select> <br/><br/>
+      <label for="c2">select any one:</label>
+      <input list="c2" id="c2" name="c2" >
+      <datalist id="c2">
+        <option value="red">
+        <option vaue="green">
+        <option vaue="yellow">
+      </datalist>
+
+      <input type="submit" value="submit" formaction="iframe.html"/>
+    </form>
+  </body>
+</html>
